@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #100C08;
+    font-family: 'Noto Sans',
+    sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+input, button {
+    padding: 8px;
+    border-radius: 4px;
+    font-size: medium;
+    color: aliceblue;
+}
+input {
+    background-color: #353839;
+    border-style: none;
+    margin-bottom: 8px;
+    
+}
+
+button {
+    background-color: #0066b2;
+    border-style: none;
+    cursor: pointer;
+}
+
+input:focus {
+    outline-color: #0066b2;
+}
+.submit-section,.fetch-section, .data-display  {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    font-size: larger;
+    font-weight: 600;
+
+}
+
