@@ -11,16 +11,20 @@
 <body>
     <div class="center">
         <div class="submit-section">
-            <p>Submit Section</p>
-            <input id="firstName" type="text" placeholder="First Name">
-            <input id="lastName" type="text" placeholder="last Name">
-            <button id="submitButton" type="submit" onclick="onSubmit()">Submit</button>
+            <form name="submit-form"  >
+                <p>Submit Section</p>
+                <input id="firstName" name="firstname" type="text" placeholder="First Name">
+                <input id="lastName" name="lastname" type="text" placeholder="Last Name">
+                <button id="submitButton" type="submit" >Submit</button>
+            </form>
 
         </div>
         <div class="fetch-section">
-            <p>Fetch Section</p>
-            <input type="text" placeholder="First Name" >
-            <button type="submit" >Fetch</button>
+            <form name="fetch-form">
+                <p>Fetch Section</p>
+                <input type="text" placeholder="First Name" >
+                <button type="submit" >Fetch</button>
+            </form>
         </div>
         <div class="data-display">
             <p>Fetch Data</p>
